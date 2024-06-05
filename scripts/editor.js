@@ -2764,12 +2764,12 @@ let blActivateClick = async ()=>{
 
    
 
-        // ACTIVATE BLOKLIVE!!!
+        // ACTIVATE OPENLIVE!!!
         projectReplaceInitiated = true;
         pauseEventHandling = false
         liveMessage({meta:"myId",id:blId})
-        activateBlocklive()
-        // JOIN BLOCKLIVE SESSION!!!!
+        activateOpenlive()
+        // JOIN OPENLIVE SESSION!!!!
         liveMessage({meta:"joinSession"})
         readyToRecieveChanges = true
         await refreshShareModal()
